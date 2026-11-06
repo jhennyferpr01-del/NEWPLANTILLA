@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 24.2.7.2 (Linux)"/>
+	<meta name="author" content="dagutierreze@minsait.com"/>
+	<meta name="created" content="2026-04-29T12:55:00"/>
+	<meta name="changedby" content="Gutierrez Espinoza, Diego Alexandre"/>
+	<meta name="changed" content="2026-10-26T16:53:00"/>
+	<meta name="AppVersion" content="16.0000"/>
+	<meta name="ContentTypeId" content="0x01010036180F303829E44082BA690803C9C8A8"/>
+	<meta name="MediaServiceImageTags" content=""/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin-left: 0.98in; margin-right: 0.98in; margin-top: 0.49in; margin-bottom: 0.31in }
+		p { letter-spacing: normal; line-height: 115%; text-align: justify; orphans: 2; widows: 2; margin-bottom: 0.1in; direction: ltr; background: transparent }
+		p.western { font-family: "Arial", serif; so-language: es-ES-u-co-trad }
+		p.cjk { font-family: "Times New Roman" }
+		p.ctl { font-family: "Times New Roman"; font-size: 10pt; font-weight: bold }
+		h1 { text-transform: uppercase; letter-spacing: normal; line-height: 100%; text-align: justify; page-break-inside: avoid; orphans: 2; widows: 2; margin-top: 0.19in; margin-bottom: 0.08in; direction: ltr; background: transparent; page-break-after: avoid }
+		h1.western { font-family: "Arial", serif; font-size: 11pt; so-language: es-ES-u-co-trad; font-weight: bold }
+		h1.cjk { font-family: "游ゴシック Light"; font-size: 11pt; font-weight: bold }
+		h1.ctl { font-family: "Vrinda"; font-size: 16pt; font-weight: bold }
+		h2 { letter-spacing: normal; line-height: 100%; text-align: justify; page-break-inside: avoid; orphans: 2; widows: 2; margin-bottom: 0.04in; direction: ltr; background: transparent; page-break-after: avoid }
+		h2.western { font-family: "Arial", serif; font-size: 11pt; so-language: es-ES-u-co-trad; font-weight: bold }
+		h2.cjk { font-family: "游ゴシック Light"; font-size: 11pt; font-weight: bold }
+		h2.ctl { font-family: "Vrinda"; font-size: 13pt; font-weight: bold }
+		h3 { color: #1f3763; letter-spacing: normal; line-height: 100%; text-align: justify; page-break-inside: avoid; orphans: 2; widows: 2; margin-top: 0.03in; margin-bottom: 0in; direction: ltr; background: transparent; page-break-after: avoid }
+		h3.western { font-family: "Calibri Light", serif; font-size: 12pt; so-language: es-ES-u-co-trad }
+		h3.cjk { font-family: "游ゴシック Light"; font-size: 12pt }
+		h3.ctl { font-family: "Vrinda"; font-size: 12pt; font-weight: bold }
+		h3.titulo-3-western { color: #000000; font-family: "Arial", serif; font-size: 11pt; font-weight: bold; margin-top: 0.08in; margin-bottom: 0.04in }
+		h3.titulo-3-cjk { color: #000000; font-size: 11pt; font-weight: bold; margin-top: 0.08in; margin-bottom: 0.04in }
+		h3.titulo-3-ctl { color: #000000; font-family: "Arial"; font-size: 11pt; font-weight: normal; margin-top: 0.08in; margin-bottom: 0.04in }
+		a:link { color: #0563c1; text-decoration: underline }
+		a:visited { color: #954f72; text-decoration: underline }
+	</style>
+</head>
+<body lang="es-PE" link="#0563c1" vlink="#954f72" dir="ltr">
+<div title="header">
+	<table width="605" cellpadding="7" cellspacing="0">
+		<col width="126"/>
+		<col width="184"/>
+		<col width="104"/>
+		<col width="132"/>
+		<tr>
+			<td rowspan="3" width="126" height="37" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-top: 0.08in">
+				<img src="data:image/png;base64,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" name="Picture 1110994311" align="bottom" width="83" height="83" border="0"/>
+</p>
+			</td>
+			<td colspan="2" width="302" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-bottom: 0in">
+				<font size="3" style="font-size: 12pt"><span lang="es-PE"><b>BASES
+				TÉCNICAS DE LICITACIÓN</b></span></font></p>
+				<p lang="es-ES-u-co-trad" align="center">“                  ”</p>
+			</td>
+			<td rowspan="3" width="132" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-bottom: 0in">
+				<span lang="es-PE"><b>Superintendencia</b></span></p>
+				<p lang="es-ES-u-co-trad" align="center" style="margin-bottom: 0in">
+				<span lang="es-PE"><b>de</b></span></p>
+				<p lang="es-ES-u-co-trad" align="center"><span lang="es-PE"><b>Telecomunicaciones</b></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="184" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left">
+				<span lang="es-PE">VP: Finanzas y administración</span></p>
+			</td>
+			<td width="104" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-right: -0.03in">
+				<span lang="es-PE">Fecha: </span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="184" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left">
+				<span lang="es-PE">Gerencia: STC</span></p>
+			</td>
+			<td width="104" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left">
+				<span lang="es-PE">Página: </span><span lang="es-PE"><span style="background: #c0c0c0"><sdfield type=PAGE subtype=RANDOM format=PAGE>0</sdfield></span>
+				de <span style="background: #c0c0c0"><sdfield type=DOCSTAT subtype=PAGE format=PAGE>9</sdfield></span></span></p>
+			</td>
+		</tr>
+	</table>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.45in">
+	<br/>
+
+	</p>
+</div><p lang="es-ES-u-co-trad" class="western" style="line-height: 100%; text-indent: -0.43in; margin-left: 0.43in; margin-bottom: 0in">
+  
+</p>
+<p lang="es-ES-u-co-trad" class="western" style="line-height: 100%; margin-bottom: 0in">
+<br/>
+
+</p>
+<p lang="es-ES-u-co-trad" class="western" style="line-height: 100%; margin-bottom: 0in">
+<br/>
+
+</p>
+<table width="604" cellpadding="7" cellspacing="0">
+	<col width="588"/>
+	<tr>
+		<td width="588" height="230" style="border: 1px solid #000000; padding: 0in 0.08in"><p class="western" align="center" style="margin-top: 0.42in; margin-bottom: 0in">
+			<br/>
+
+			</p>
+			<p class="western" align="center" style="margin-bottom: 0.42in"><br/>
+<br/>
+
+			</p>
+			<p lang="es-ES-u-co-trad" class="western" align="center" style="margin-top: 0.42in; margin-bottom: 0.42in">
+			<font size="4" style="font-size: 14pt"><span lang="es-PE"><b>SOLPED
+			 </b></span></font>
+			</p>
+			<p lang="es-ES-u-co-trad" class="western" align="center" style="margin-top: 0.42in">
+			<font size="4" style="font-size: 16pt"><span lang="es-PE"><b>BASES
+			TÉCNICAS DE LICITACIÓN</b></span></font></p>
+		</td>
+	</tr>
+</table>
+<p lang="es-ES-u-co-trad" class="western" style="line-height: 100%; margin-bottom: 0in">
+<br/>
+
+</p>
+<p lang="es-ES-u-co-trad" class="western" style="line-height: 100%; margin-bottom: 0in">
+<br/>
+
+</p>
+<p lang="es-ES-u-co-trad" class="western" style="line-height: 100%; margin-bottom: 0in">
+<br/>
+
+</p>
+<table width="100%" cellpadding="7" cellspacing="0">
+	<col width="19*"/>
+	<col width="31*"/>
+	<col width="70*"/>
+	<col width="48*"/>
+	<col width="44*"/>
+	<col width="44*"/>
+	<thead>
+		<tr>
+			<td width="7%" height="15" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<b><font color="#ffffff">Rev.</font></b></p>
+			</td>
+			<td width="12%" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<b><font color="#ffffff">Fecha</font></b></p>
+			</td>
+			<td width="27%" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<b><font color="#ffffff">Emitido para</font></b></p>
+			</td>
+			<td width="19%" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<b><font color="#ffffff">Elaborado</font></b></p>
+			</td>
+			<td width="17%" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<b><font color="#ffffff">Revisado</font></b></p>
+			</td>
+			<td width="17%" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<b><font color="#ffffff">Aprobado</font></b></p>
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td width="7%" height="16" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="12%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="27%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="19%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="17%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="17%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="7%" height="16" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="12%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="27%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="19%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="17%" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="17%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="7%" height="15" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="12%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="27%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="19%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="17%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="17%" style="border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.04in">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p lang="es-ES-u-co-trad" class="western" align="center" style="line-height: 100%; margin-bottom: 0in">
+<br/>
+
+</p>
+<p lang="es-ES-u-co-trad" class="western" align="left" style="line-height: 108%; margin-bottom: 0.11in">
+<br/>
+<br/>
+
+</p>
+<p lang="es-ES-u-co-trad" class="western" align="left" style="line-height: 108%; margin-bottom: 0.11in">
+<br/>
+<br/>
+
+</p>
+<p lang="es-ES-u-co-trad" class="western" align="center" style="line-height: 108%; margin-bottom: 0.11in; page-break-before: always">
+<font size="3" style="font-size: 12pt"><b>CONTENIDO</b></font></p>
+<p lang="es-ES-u-co-trad" class="western" align="left" style="line-height: 108%; margin-bottom: 0.11in">
+<br/>
+<br/>
+
+</p>
+<div id="Table of Contents1" dir="ltr"><p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243907995">1.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243907995">	</span></span></font></font><b>Antecedentes	4</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243907996">2.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243907996">	</span></span></font></font><b>Definiciones	4</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243907997">3.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243907997">	</span></span></font></font><b>Normas
+	y Estándares Aplicables	4</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243907998">3.1<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Estándares
+	o lineamientos de Antamina	4</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243907999">3.2<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Estándares
+	o lineamientos del sector	5</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908000">4.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908000">	</span></span></font></font><b>Ubicación
+	y condiciones de sitio	5</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908001">4.1<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Ubicación	5</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908002">4.2<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Condiciones
+	de sitio	6</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908003">5.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908003">	</span></span></font></font><b>Objetivos
+	del servicio	7</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908004">6.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908004">	</span></span></font></font><b>Alcance
+	del Servicio	8</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908005">6.1<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Inspección
+	y verificación del sitio	8</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908006"><span lang="es-ES">6.2</span><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font><span lang="es-ES">Adecuaciones
+	para la Instalación del Repetidor P25</span>	8</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908007"><span lang="es-ES">6.3</span><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font><span lang="es-ES">Instalación
+	de equipamiento P25</span>	10</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908008">6.4<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Trabajos
+	en Torre Fase 5	11</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908009">6.5<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Trabajos
+	en Torre Fase 5	11</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908010">6.6<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Configuración,
+	integración y pruebas	11</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908011">6.7<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Consideraciones
+	generales	12</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908012">7.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908012">	</span></span></font></font><b>Responsabilidades
+	de las Partes	12</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908013">7.1<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Responsabilidades
+	de ANTAMINA	12</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908014">7.2<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Responsabilidades
+	del contratista	13</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908015">8.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908015">	</span></span></font></font><b>Aseguramiento
+	y Control de la Calidad	13</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908016">8.1<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Responsabilidad
+	del contratista	13</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908017">8.2<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Organización
+	de calidad y personal	14</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908018">8.3<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Planificación
+	de la calidad	14</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908019">8.4<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Control
+	de calidad	14</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908020">8.5<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Plan
+	de inspección	14</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908021">8.6<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Equipos
+	y Herramientas	14</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908022"><span lang="es-ES">9.0</span></a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908022">	</span></span></font></font><b><span lang="es-ES">Entregables
+	del servicIo</span>	15</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908023">10.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908023">	</span></span></font></font><b>Plazo
+	del servicio	16</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908024">11.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908024">	</span></span></font></font><b>Plan
+	de trabajo del servicio	16</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908025">12.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908025">	</span></span></font></font><b>Requerimientos
+	mínimos del Postor	16</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908026">13.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908026">	</span></span></font></font><b>Gestión
+	del servicio	16</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908027">13.1<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Gestión
+	de la información	16</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908028">13.2<font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font>Calidad
+	de los documentos	17</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908029"><span lang="es-PE">13.3</span><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font><span lang="es-PE">Control
+	del proyecto</span>	17</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908030"><span lang="es-PE">14.0</span></a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908030">	</span></span></font></font><b><span lang="es-PE">SLA
+	y Penalidades</span>	18</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908031">15.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908031">	</span></span></font></font><b>Modalidad
+	del servicio y oferta económica	18</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908032">16.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908032">	</span></span></font></font><b>Aclaraciones
+	Frecuentes	19</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<b><a href="#_Toc243908033">17.0</a></b><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE"><span style="font-weight: normal"><a href="#_Toc243908033">	</span></span></font></font><b>Documentos
+	anexos	20</b></a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908034"><span lang="es-ES">17.1</span><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font><span lang="es-ES">Anexo
+	1: Ubicación en KMZ de Site Torre Fase 5</span>	20</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908035"><span lang="es-ES">17.2</span><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font><span lang="es-ES">Anexo
+	2: Ubicación referencial de pasamuro y barras de tierra EGB y
+	MGB</span>	20</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908036"><span lang="es-ES">17.3</span><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font><span lang="es-ES">Anexo
+	3: Ubicación propuesta para instalación de bandeja portacables</span>	20</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908037"><span lang="es-ES">17.4</span><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font><span lang="es-ES">Anexo
+	4: Ubicación referencial para Gabinete P25 en Shelter</span>	20</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908038"><span lang="es-ES">17.5</span><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font><span lang="es-ES">Anexo
+	5: Ubicación propuesta de gabinetes para Power Core y bancos de
+	baterías</span>	20</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908039"><span lang="es-ES">17.6</span><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font><span lang="es-ES">Anexo
+	6: Dimensiones de shelter de telecomunicaciones</span>	20</a></p>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0.07in">
+	<a href="#_Toc243908040"><span lang="es-ES">17.7</span><font face="Calibri, serif"><font size="3" style="font-size: 12pt"><span lang="es-PE">	</span></font></font><span lang="es-ES">Anexo
+	7: Estándares Antamina</span>	20</a></p>
+</div>
+<p lang="es-ES-u-co-trad" class="western" style="line-height: 150%; text-indent: -0.49in; margin-left: 0.49in; margin-bottom: 0in">
+<br/>
+
+</p>
+<p lang="es-ES-u-co-trad" class="western" style="line-height: 100%; margin-bottom: 0in">
+<br/>
+
+</p>
+<p lang="es-ES-u-co-trad" class="western" align="left" style="line-height: 108%; margin-bottom: 0.11in">
+<br/>
+<br/>
+
+</p>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.5in; margin-top: 0in; page-break-before: always"><a name="_Toc243907995"></a><a name="_Toc174439236"></a>
+1.0Antecedentes</h1>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.98in; margin-left: 0.98in"><a name="_Toc243907996"></a><a name="_Toc174439237"></a>
+2.0Definiciones</h1>
+<p lang="es-ES-u-co-trad" align="center" style="line-height: 100%; margin-left: 0.43in; margin-bottom: 0.13in">
+<i>Tabla <span style="background: #c0c0c0">Definiciones</span>&#8209;<span style="background: #c0c0c0">1</span>
+Definición de términos</i></p>
+<dl><dd>
+	<table width="562" cellpadding="7" cellspacing="0">
+		<col width="174"/>
+		<col width="189"/>
+		<col width="155"/>
+		<tr>
+			<td width="174" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+				<b><font color="#ffffff">Descripción</font></b></p>
+			</td>
+			<td width="189" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+				<b><font color="#ffffff">Nombre</font></b></p>
+			</td>
+			<td width="155" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+				<b><font color="#ffffff">En adelante</font></b></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="174" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="189" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="155" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="174" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="189" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="155" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="174" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="189" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="155" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="174" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="189" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="155" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+</dd></dl>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.93in; margin-left: 0.93in"><a name="_Toc243907997"></a>
+3.0Normas y Estándares Aplicables</h1>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243907998"></a><a name="_Toc174439239"></a>
+3.1Estándares o lineamientos de Antamina</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.3in; margin-left: 0.69in"><a name="_Toc243907999"></a><a name="_Toc174439240"></a>
+3.2Estándares o lineamientos del sector</h2>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.83in; margin-left: 0.93in; margin-top: 0in"><a name="_Toc243908000"></a><a name="_Toc174439241"></a>
+4.0Ubicación y condiciones de sitio</h1>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in; margin-top: 0in"><a name="_Toc243908001"></a><a name="_Toc174439242"></a>
+4.1Ubicación</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908002"></a><a name="_Toc174439243"></a>
+4.2Condiciones de sitio</h2>
+<p lang="es-ES-u-co-trad" align="center" style="line-height: 100%; margin-left: 0.74in; margin-bottom: 0.13in"><a name="_Hlk174435163"></a>
+<font color="#44546a"><span lang="es-ES"><i>Tabla 4-1. 0000-GEN-01:
+“Condiciones Generales del Sitio” &nbsp;</i></span></font></p>
+<dl><dd>
+	<table width="562" cellpadding="7" cellspacing="0">
+		<col width="312"/>
+		<col width="221"/>
+		<thead>
+			<tr>
+				<td width="312" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+					<b><font color="#ffffff">Descripción</font></b></p>
+				</td>
+				<td width="221" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+					<b><font color="#ffffff">Valor</font></b></p>
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="312" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="221" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</dd></dl>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.83in; margin-left: 0.93in"><a name="_Toc243908003"></a><a name="_Toc199845562"></a><a name="_Toc174439244"></a>
+5.0Objetivos del servicio</h1>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.83in; margin-left: 0.93in; margin-top: 0in"><a name="_Toc243908004"></a>
+6.0Alcance del Servicio</h1>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in; margin-top: 0in"><a name="_Toc243908005"></a>
+6.1Inspección y verificación del sitio</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in; margin-top: 0in"><a name="_Toc243908006"></a>
+6.2<span lang="es-ES">Adecuaciones para la Instalación del Repetidor
+P25</span></h2>
+<dl><dd>
+	<table width="557" cellpadding="5" cellspacing="0">
+		<col width="67"/>
+		<col width="171"/>
+		<col width="87"/>
+		<col width="69"/>
+		<col width="110"/>
+		<tr>
+			<td width="67" height="30" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<font color="#ffffff"><font size="2" style="font-size: 9pt"><b>GABINETE</b></font></font></p>
+			</td>
+			<td width="171" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<font color="#ffffff"><font size="2" style="font-size: 9pt"><span lang="es-MX"><b>DESCRIPCION</b></span></font></font></p>
+			</td>
+			<td width="87" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<font color="#ffffff"><font size="2" style="font-size: 9pt"><b>CANTIDAD</b></font></font></p>
+			</td>
+			<td width="69" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<font color="#ffffff"><font size="2" style="font-size: 9pt"><span lang="es-MX"><b>POTENCIA
+				x EQUIPO (WATTS)</b></span></font></font></p>
+			</td>
+			<td width="110" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<font color="#ffffff"><font size="2" style="font-size: 9pt"><span lang="es-MX"><b>POTENCIA
+				ACUMULADA (WATTS)</b></span></font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="67" height="7" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="171" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="left">
+				<br/>
+
+				</p>
+			</td>
+			<td width="87" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="69" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="110" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="67" height="7" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="171" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="left">
+				<br/>
+
+				</p>
+			</td>
+			<td width="87" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="69" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="110" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="67" height="7" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="171" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="left">
+				<br/>
+
+				</p>
+			</td>
+			<td width="87" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="69" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="110" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="67" height="7" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="171" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="left">
+				<br/>
+
+				</p>
+			</td>
+			<td width="87" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="69" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="110" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="67" height="7" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="171" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="left">
+				<br/>
+
+				</p>
+			</td>
+			<td width="87" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="69" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="110" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="67" height="7" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="171" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="left">
+				<br/>
+
+				</p>
+			</td>
+			<td width="87" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="69" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="110" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="67" height="7" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="171" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="left">
+				<br/>
+
+				</p>
+			</td>
+			<td width="87" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="69" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="110" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="67" height="7" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="171" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="left">
+				<br/>
+
+				</p>
+			</td>
+			<td width="87" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="69" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="110" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" width="425" height="6" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="110" style="border: 1px solid #000000; padding: 0in 0.05in"><p lang="es-ES-u-co-trad" class="western" align="center">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+</dd></dl>
+<p lang="es-ES-u-co-trad" align="center" style="line-height: 100%; margin-left: 0.74in; margin-top: 0.08in; margin-bottom: 0.13in">
+<font color="#44546a"><span lang="es-ES"><i>Tabla&nbsp;6.3. Consumo
+eléctrico en shelter.</i></span></font></p>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in; margin-top: 0in"><a name="_Toc243908007"></a>
+6.3<span lang="es-ES">Instalación de equipamiento P25</span></h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in; margin-top: 0in"><a name="_Toc243908008"></a>
+6.4Trabajos en Torre Fase 5</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in; margin-top: 0in"><a name="_Toc243908009"></a>
+6.5Trabajos en Torre Fase 5</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in; margin-top: 0in"><a name="_Toc243908010"></a>
+6.6Configuración, integración y pruebas</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in; margin-top: 0in"><a name="_Toc243908011"></a>
+6.7Consideraciones generales</h2>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc243908012"></a>
+7.0Responsabilidades de las Partes</h1>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908013"></a><a name="_Toc174439252"></a>
+7.1Responsabilidades de ANTAMINA</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908014"></a><a name="_Toc174439253"></a>
+7.2Responsabilidades del contratista</h2>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc243908015"></a><a name="_Toc178183944"></a>
+8.0Aseguramiento y Control de la Calidad</h1>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908016"></a><a name="_Toc178183945"></a><a name="_Toc114229900"></a><a name="_Toc113703744"></a><a name="_Toc113462679"></a><a name="_Toc113455073"></a>
+8.1Responsabilidad del contratista</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908017"></a><a name="_Toc178183946"></a><a name="_Toc114229901"></a><a name="_Toc113703745"></a><a name="_Toc113462680"></a><a name="_Toc113455074"></a><a name="_Toc73544107"></a>
+8.2Organización de calidad y personal</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908018"></a><a name="_Toc178183947"></a><a name="_Toc114229902"></a><a name="_Toc113703746"></a><a name="_Toc113462681"></a><a name="_Toc113455075"></a><a name="_Toc73544108"></a>
+8.3Planificación de la calidad</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908019"></a><a name="_Toc178183948"></a><a name="_Toc114229903"></a><a name="_Toc113703747"></a><a name="_Toc113462682"></a><a name="_Toc113455076"></a><a name="_Toc73544109"></a>
+8.4Control de calidad</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908020"></a><a name="_Toc178183949"></a><a name="_Toc138083277"></a><a name="_Toc114229904"></a><a name="_Toc113703748"></a><a name="_Toc113462683"></a><a name="_Toc113455077"></a>
+8.5 Plan de inspección</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908021"></a><a name="_Toc229831433"></a>
+8.6Equipos y Herramientas</h2>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc174439254"></a><a name="_Toc243908022"></a>
+9.0<span lang="es-ES"> Entregables del servicIo</span></h1>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc243908023"></a><a name="_Toc174439255"></a>
+10.0Plazo del servicio</h1>
+<dl><dd>
+	<table width="562" cellpadding="7" cellspacing="0">
+		<col width="472"/>
+		<col width="60"/>
+		<thead>
+			<tr>
+				<td width="472" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+					<b><font color="#ffffff">Descripción</font></b></p>
+				</td>
+				<td width="60" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+					<b><font color="#ffffff">Fecha</font></b></p>
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr valign="top">
+				<td width="472" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="60" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="472" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="60" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="472" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="60" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="472" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="60" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="472" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="60" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</dd></dl>
+<p lang="es-ES-u-co-trad" class="western" align="center" style="line-height: 100%; text-indent: 0.1in; margin-left: 0.69in; margin-bottom: 0in">
+<font color="#44546a"><span lang="es-ES"><i>Tabla 10.<span style="background: #c0c0c0">1</span>
+Hitos sugeridos para el servicio</i></span></font></p>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc243908024"></a>
+11.0Plan de trabajo del servicio</h1>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc243908025"></a><a name="_Toc174439257"></a>
+12.0Requerimientos mínimos del Postor</h1>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc243908026"></a><a name="_Toc174439258"></a>
+13.0Gestión del servicio</h1>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908027"></a><a name="_Toc174439259"></a>
+13.1Gestión de la información</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908028"></a><a name="_Toc174439260"></a>
+13.2Calidad de los documentos</h2>
+<h2 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908029"></a><a name="_Toc174439261"></a>
+13.3<span lang="es-PE">Control del proyecto</span></h2>
+<h3 lang="es-ES-u-co-trad" class="titulo-3-western" style="margin-left: 0.43in"><a name="_Toc174439262"></a>
+<span lang="es-PE">Cronograma</span></h3>
+<h3 lang="es-ES-u-co-trad" class="titulo-3-western" style="margin-left: 0.43in">
+13.3.1<span lang="es-PE">Reporte diario</span></h3>
+<h3 lang="es-ES-u-co-trad" class="titulo-3-western" style="margin-left: 0.43in"><a name="_Toc174439263"></a>
+<span lang="es-PE">Reporte semanal</span></h3>
+<h3 lang="es-ES-u-co-trad" class="titulo-3-western" style="margin-left: 0.43in"><a name="_Toc174439264"></a>
+<span lang="es-PE">Reuniones de control</span></h3>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc174439265"></a><a name="_Toc243908030"></a>
+14.0<span lang="es-PE"> SLA y Penalidades</span></h1>
+<dl><dd>
+	<table width="564" cellpadding="7" cellspacing="0">
+		<col width="27"/>
+		<col width="111"/>
+		<col width="259"/>
+		<col width="109"/>
+		<tr>
+			<td width="27" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+				<b><font color="#ffffff">Ítem</font></b></p>
+			</td>
+			<td width="111" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+				<b><font color="#ffffff">Actividad</font></b></p>
+			</td>
+			<td width="259" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+				<b><font color="#ffffff">Descripción</font></b></p>
+			</td>
+			<td width="109" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+				<b><font color="#ffffff">Plazo estimado</font></b></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="27" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="111" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="259" valign="top" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="left" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="109" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-top: 0.08in">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+</dd></dl>
+<p lang="es-ES-u-co-trad" class="western" align="center" style="line-height: 100%; text-indent: 0.1in; margin-left: 0.69in; margin-bottom: 0in">
+<font color="#44546a"><span lang="es-ES"><i>Tabla <span style="background: #c0c0c0"> SLA y Penalidades</span>&#8209;<span style="background: #c0c0c0">1</span>.
+Plazos estimados para la ejecución del contrato</i></span></font></p>
+<dl><dd>
+	<table width="562" cellpadding="7" cellspacing="0">
+		<col width="29"/>
+		<col width="86"/>
+		<col width="95"/>
+		<col width="123"/>
+		<col width="64"/>
+		<col width="80"/>
+		<thead>
+			<tr>
+				<td width="29" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+					<b><font color="#ffffff">Ítem</font></b></p>
+				</td>
+				<td width="86" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+					<b><font color="#ffffff">Actividad</font></b></p>
+				</td>
+				<td width="95" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+					<b><font color="#ffffff">Indicador</font></b></p>
+				</td>
+				<td width="123" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+					<b><font color="#ffffff">Meta</font></b></p>
+				</td>
+				<td width="64" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+					<b><font color="#ffffff">Infracción</font></b></p>
+				</td>
+				<td width="80" bgcolor="#037f8c" style="background: #037f8c; border: 1px solid #000000; padding: 0in 0.08in"><p align="center" style="margin-top: 0.08in">
+					<b><font color="#ffffff">Plazo</font></b></p>
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td width="29" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="86" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="95" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="123" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+				<td width="64" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-top: 0.08in">
+					<br/>
+<br/>
+
+					</p>
+				</td>
+				<td width="80" style="border: 1px solid #000000; padding: 0in 0.08in"><p lang="es-ES-u-co-trad" align="center" style="margin-top: 0.08in">
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</dd></dl>
+<p lang="es-ES-u-co-trad" class="western" align="center" style="line-height: 100%; text-indent: 0.1in; margin-left: 0.69in; margin-bottom: 0in">
+<font color="#44546a"><span lang="es-ES"><i>Tabla <span style="background: #c0c0c0"> SLA y Penalidades</span>&#8209;<span style="background: #c0c0c0">2</span>.
+Penalidades aplicables</i></span></font></p>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc174439266"></a><a name="_Toc243908031"></a>
+15.0 Modalidad del servicio y oferta económica</h1>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc243908032"></a>
+16.0 Aclaraciones Frecuentes</h1>
+<h1 lang="es-ES-u-co-trad" class="western" style="text-indent: -0.81in; margin-left: 0.93in"><a name="_Toc174439267"></a><a name="_Toc243908033"></a>
+17.0 Documentos anexos</h1>
+<h2 lang="es-ES-u-co-trad" class="western" align="left" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908034"></a>
+17.1<span lang="es-ES">Anexo 1: Ubicación en KMZ de Site Torre Fase
+5</span></h2>
+<h2 lang="es-ES-u-co-trad" class="western" align="left" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908035"></a>
+17.2<span lang="es-ES">Anexo 2: Ubicación referencial de pasamuro y
+barras de tierra EGB y MGB</span></h2>
+<h2 lang="es-ES-u-co-trad" class="western" align="left" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908036"></a>
+17.3<span lang="es-ES">Anexo 3: Ubicación propuesta para instalación
+de bandeja portacables</span></h2>
+<h2 lang="es-ES-u-co-trad" class="western" align="left" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908037"></a>
+17.4<span lang="es-ES">Anexo 4: Ubicación referencial para Gabinete
+P25 en Shelter</span></h2>
+<h2 lang="es-ES-u-co-trad" class="western" align="left" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908038"></a>
+17.5<span lang="es-ES">Anexo 5: Ubicación propuesta de gabinetes
+para Power Core y bancos de baterías</span></h2>
+<h2 lang="es-ES-u-co-trad" class="western" align="left" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908039"></a>
+17.6<span lang="es-ES">Anexo 6: Dimensiones de shelter de
+telecomunicaciones</span></h2>
+<h2 lang="es-ES-u-co-trad" class="western" align="left" style="text-indent: -0.5in; margin-left: 0.93in"><a name="_Toc243908040"></a>
+17.7<span lang="es-ES">Anexo 7: Estándares Antamina</span></h2>
+<div title="footer">
+	<table width="604" cellpadding="7" cellspacing="0">
+		<col width="187"/>
+		<col width="187"/>
+		<col width="187"/>
+		<tr valign="top">
+			<td width="187" height="6" style="border: none; padding: 0in"><p lang="es-ES-u-co-trad" align="left" style="margin-left: -0.08in">
+				<br/>
+
+				</p>
+			</td>
+			<td width="187" style="border: none; padding: 0in"><p lang="es-ES-u-co-trad" align="center">
+				<br/>
+
+				</p>
+			</td>
+			<td width="187" style="border: none; padding: 0in"><p lang="es-ES-u-co-trad" align="right" style="margin-right: -0.08in">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+	<p lang="es-ES-u-co-trad" style="line-height: 100%; margin-bottom: 0in">
+	<br/>
+
+	</p>
+</div>
+</body>
+</html>
